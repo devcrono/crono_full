@@ -1,0 +1,392 @@
+a.Close {
+    color: red;
+}
+
+a.LangChoose {
+    background-color: red;
+}
+
+button.Don {
+  position: absolute;
+  top: 150px;
+  left: 47%;
+  color: black;
+  text-transform: uppercase;
+}
+
+
+.Don {
+  text-decoration: none;
+  border: 1px solid rgb(146, 148, 248);
+  position: relative;
+  overflow: hidden;
+}
+
+.Don:hover {
+  box-shadow: 1px 1px 25px 10px rgba(146, 148, 248, 0.4);
+}
+
+.Don:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(146, 148, 248, 0.4),
+    transparent
+  );
+  transition: all 650ms;
+}
+
+.Don:hover:before {
+  left: 100%;
+}
+
+button.Don {
+  position: absolute;
+  top: 150px;
+  left: 40%;
+  color: black;
+  text-transform: uppercase;
+}
+
+
+.Don {
+  text-decoration: none;
+  border: 1px solid rgb(146, 148, 248);
+  position: relative;
+  overflow: hidden;
+}
+
+.Don:hover {
+  box-shadow: 1px 1px 25px 10px rgba(146, 148, 248, 0.4);
+}
+
+.Don:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(146, 148, 248, 0.4),
+    transparent
+  );
+  transition: all 650ms;
+}
+
+.Don:hover:before {
+  left: 100%;
+}
+
+button.Don2 {
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  color: black;
+  text-transform: uppercase;
+}
+
+
+.Don2 {
+  text-decoration: none;
+  border: 1px solid rgb(146, 148, 248);
+  position: relative;
+  overflow: hidden;
+}
+
+.Don2:hover {
+  box-shadow: 1px 1px 25px 10px rgba(146, 148, 248, 0.4);
+}
+
+.Don2:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(146, 148, 248, 0.4),
+    transparent
+  );
+  transition: all 650ms;
+}
+
+.Don2:hover:before {
+  left: 100%;
+}
+
+
+
+#btn {
+    background: #222;
+    height: 50px;
+    width: 300px;
+    min-width: 150px;
+    border: none;
+    border-radius: 10px;
+    color: #eee;
+    font-size: 30px;
+    font-family: 'Cookie', cursive;
+    position: relative;
+    transition: 1s;
+    -webkit-tap-highlight-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    top: -200px;
+  }
+  
+  #btn #circle {
+    width: 5px;
+    height: 5px;
+    background: transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    overflow: hidden;
+    transition: 500ms;
+  }
+  
+  .noselect {
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+  }
+  
+  #btn:hover {
+    background: transparent;
+  }
+  
+  #btn:hover #circle {
+    height: 50px;
+    width: 100%;
+    left: 0;
+    border-radius: 0;
+    border-bottom: 2px solid #eee;
+  }
+
+  #btn3 {
+    background: #222;
+    height: 50px;
+    width: 300px;
+    min-width: 150px;
+    border: none;
+    border-radius: 10px;
+    color: #eee;
+    font-size: 30px;
+    font-family: 'Cookie', cursive;
+    position: relative;
+    transition: 1s;
+    -webkit-tap-highlight-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    left: 700px;
+    top: -300px;
+  }
+  
+  #btn3 #circle {
+    width: 5px;
+    height: 5px;
+    background: transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    overflow: hidden;
+    transition: 500ms;
+  }
+  
+  
+  #btn3:hover {
+    background: transparent;
+  }
+  
+  #btn3:hover #circle {
+    height: 50px;
+    width: 100%;
+    left: 0;
+    border-radius: 0;
+    border-bottom: 2px solid #eee;
+  }
+
+  #btn2 {
+    background: #222;
+    height: 50px;
+    width: 300px;
+    min-width: 150px;
+    border: none;
+    border-radius: 10px;
+    color: #eee;
+    font-size: 30px;
+    font-family: 'Cookie', cursive;
+    position: relative;
+    transition: 1s;
+    -webkit-tap-highlight-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    left: 360px;
+    top: -250px;
+  }
+  
+  #btn2 #circle {
+    width: 5px;
+    height: 5px;
+    background: transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    overflow: hidden;
+    transition: 500ms;
+  }
+  
+  
+  #btn2:hover {
+    background: transparent;
+  }
+  
+  #btn2:hover #circle {
+    height: 50px;
+    width: 100%;
+    left: 0;
+    border-radius: 0;
+    border-bottom: 2px solid #eee;
+  }
+
+
+  #btnJB {
+    background: #222;
+    height: 50px;
+    min-width: 150px;
+    border: none;
+    border-radius: 10px;
+    color: #eee;
+    font-size: 40px;
+    font-family: 'Cookie', cursive;
+    position: relative;
+    transition: 1s;
+    -webkit-tap-highlight-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    top: -190px;
+  }
+  
+  #btnJB #circle {
+    width: 5px;
+    height: 5px;
+    background: transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    overflow: hidden;
+    transition: 500ms;
+  }
+  
+  #btnJB:hover {
+    background: transparent;
+  }
+  
+  #btnJB:hover #circle {
+    height: 50px;
+    width: 100%;
+    left: 0;
+    border-radius: 0;
+    border-bottom: 2px solid #eee;
+  }
+
+  html {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #300029;
+    background-image: linear-gradient(315deg, #3b2a3b 0%, #1f011a 74%);
+  }
+
+  h2.Title {
+      background-color: #3b2a3b;
+      text-align: center;
+      padding-bottom: 15%;
+      border-radius: 15px;
+      color: rgb(158, 0, 163);
+      padding-top: 25px;
+      
+  }
+
+  h3.Tuto {
+    position: relative;
+    top: -170px;
+    color: white;
+    text-align: center;
+  }
+
+  p.hj {
+      position: relative;
+      padding-bottom: 50px;
+      top: -180px;
+      color: white;
+      text-align: center;
+  }
+
+  p.bs {
+    position: relative;
+    top: -220px;
+    color: white;
+    text-align: center;
+  }
+
+  li {
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    top: -200px;
+
+  }
+
+  h2.Pay {
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: #300029;
+    border-radius: 5px;
+    top: -200px;
+  }

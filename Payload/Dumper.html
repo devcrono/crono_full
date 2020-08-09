@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DUMPER</title>
+<script>
+function load_payload() {
+  document.write('<script src="common/loader.js"><\/scr' + 'ipt><script src="js/Dumper.js"><\/scr' + 'ipt><script src="common/c-code.js"><\/scr' + 'ipt><script>payload_finished();<\/scr' + 'ipt>');
+}
+
+function payload_finished() {
+  if (confirm("DUMPER  carregado ✔️ \n\nPRESSIONE OK, PARA INICIAR E ENTAO FECHE A JANELA")) {
+    windows.close();
+  } else {
+    windows.close();
+  }
+  //read_ptr_at(0);
+}
+
+function check_jb_finished() {
+  if (main_ret == 179 || main_ret == 0) {
+    alert("Configuração do Dumper!, clique em OK quando terminar o Dumper, basta fechar esta página (iniciar -> fechar a página) e pressionar o botão PS")
+    //read_ptr_at(0);
+    setTimeout(function(){ load_payload() }, 1500);
+  } else {
+    alert('Falha! Reinicie seu dispositivo e tente novamente.');
+  }
+}
+</script>
+</head>
+<body>
+  <script>document.write('<script src="common/exploit.js"><\/scr' + 'ipt><script src="common/helpers.js"><\/scr' + 'ipt><script src="common/malloc.js"><\/scr' + 'ipt><script src="common/rop.js"><\/scr' + 'ipt><script src="common/syscalls.js"><\/scr' + 'ipt><script src="common/syscalls2.js"><\/scr' + 'ipt><script src="common/jailbreak.js"><\/scr' + 'ipt><script>check_jb_finished();<\/scr' + 'ipt>');</script>
+</body>
+</html>

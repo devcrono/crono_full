@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JAILBREAK TOTAL</title>
+<script>
+function load_payload1() {
+  document.write('<script src="common/loader.js"><\/scr' + 'ipt><script src="js/mira.js"><\/scr' + 'ipt><script src="common/c-code.js"><\/scr' + 'ipt><script>payload1_finished();<\/scr' + 'ipt>');
+}
+
+function load_payload2() {
+  document.write('<script src="common/loader.js"><\/scr' + 'ipt><script src="js/ReactPS+.js"><\/scr' + 'ipt><script src="common/c-code.js"><\/scr' + 'ipt><script>payload2_finished();<\/scr' + 'ipt>');
+}
+
+function load_payload3() {
+  document.write('<script src="common/loader.js"><\/scr' + 'ipt><script src="js/ToDex.js"><\/scr' + 'ipt><script src="common/c-code.js"><\/scr' + 'ipt><script>payload3_finished();<\/scr' + 'ipt>');
+}
+
+function load_payload4() {
+  document.write('<script src="common/loader.js"><\/scr' + 'ipt><script src="js/WebRTE.js"><\/scr' + 'ipt><script src="common/c-code.js"><\/scr' + 'ipt><script>payload4_finished();<\/scr' + 'ipt>');
+}
+
+function payload1_finished() {
+  alert("Mira Carregado, Click em OK e Aguarde os Outros Payloads Automatico!");
+  setTimeout(function(){ load_payload2() }, 2000);
+
+  //read_ptr_at(0);
+}
+
+function payload2_finished() {
+  setTimeout(function(){ load_payload3() }, 2000);
+
+  //read_ptr_at(0);
+}
+
+function payload3_finished() {
+  setTimeout(function(){ load_payload4() }, 2000);
+
+  //read_ptr_at(0);
+}
+
+function payload4_finished() {
+  setTimeout(alert("Agora você está completamente DESBLOQUEADO com Todas os Payloads Necessarios! :) \n\nCLICK EM OK, DEPOIS BOTAO OPITIONS FECHAR JANELEA, E DEPOIS BOTAO PS !"), 3500);
+
+  //read_ptr_at(0);
+}
+
+function check_jb_finished() {
+  if (main_ret == 179 || main_ret == 0) {
+    alert("Sucesso na execução do Jailbreak !, clique em ok e Aguarde o carregamento do MIRA :)")
+    //read_ptr_at(0);
+    setTimeout(function(){ load_payload1() }, 1500);
+  } else {
+    alert('Falha! Reinicie seu dispositivo e tente novamente.');
+  }
+}
+</script>
+</head>
+<body>
+  <script>document.write('<script src="common/exploit.js"><\/scr' + 'ipt><script src="common/helpers.js"><\/scr' + 'ipt><script src="common/malloc.js"><\/scr' + 'ipt><script src="common/rop.js"><\/scr' + 'ipt><script src="common/syscalls.js"><\/scr' + 'ipt><script src="common/syscalls2.js"><\/scr' + 'ipt><script src="common/jailbreak.js"><\/scr' + 'ipt><script>check_jb_finished();<\/scr' + 'ipt>');</script>
+</body>
+</html>
